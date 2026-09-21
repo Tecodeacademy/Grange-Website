@@ -95,6 +95,10 @@ export const Header: React.FC<HeaderProps> = () => {
           <a href="#services" className="hover:text-slate-900 transition-colors">
             Services
           </a>
+          <a href="#steel-fabrication-gallery" className="hover:text-amber-600 font-semibold transition-colors flex items-center gap-1 text-slate-800">
+            <span>Steelwork Gallery</span>
+            <span className="px-1.5 py-0.5 rounded text-[10px] bg-amber-100 text-amber-900 font-mono font-bold">4</span>
+          </a>
           <a href="#portfolio" className="hover:text-slate-900 transition-colors">
             Our Work
           </a>
@@ -159,6 +163,14 @@ export const Header: React.FC<HeaderProps> = () => {
               className="px-3 py-2 rounded-lg hover:bg-slate-100"
             >
               Services (4 Divisions)
+            </a>
+            <a 
+              href="#steel-fabrication-gallery" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="px-3 py-2 rounded-lg hover:bg-slate-100 font-semibold text-amber-700 flex items-center justify-between"
+            >
+              <span>Steelwork Gallery (4 Products)</span>
+              <span className="px-1.5 py-0.5 rounded text-[10px] bg-amber-100 text-amber-900 font-mono font-bold">New</span>
             </a>
             <a 
               href="#portfolio" 
